@@ -1,21 +1,38 @@
-$color-white:		#ffffff;
-$color-black:		#000000;
+$color-bg:			#282828;
+$color-fg:			#ebdbb2;
 
-$color-gray-98:		#faf9f7; // elements light background
-$color-gray-95:		#f2f2f0; // menu - background
-$color-gray-90:		#e5e4e1; // every elements border
+$color-black:		#32302f;
+$color-black-dark:	#1d2021;
+$color-black-light:	#3c3836;
 
-$color-blue-80:		#c2c7cc; // nav, menu, pagination - button border
-$color-blue-60:		#8a9199; // nav, menu, pagination - button font
+$color-gray:		#928374;
+$color-gray-dark:	#7c6f64;
+$color-gray-light:	#a89984;
 
-$color-blue-30:		#45484d;
-$color-blue-15:		#212226;
+$color-white:		#fbf1c7;
+$color-white-dark:	#d5c4a1;
+$color-white-light:	#f9f5d7;
 
-$color-yellow-100:	#ffc336;
-$color-red-95:		#f26a3d;
+$color-red:			#cc241d;
+$color-red-dark:	#9d0006;
+$color-red-light:	#fb4934;
+$color-green:		#98971a;
+$color-green-dark:	#79740e;
+$color-yellow:		#d79921;
+$color-blue:		#458588;
+$color-blue-dark:	#076678;
+$color-blue-light:	#83a598;
+$color-purple:		#b16286;
+$color-aqua:		#689d6a;
 
-$color-social-twitter:		#3ea9dd;
-$color-social-facebook:		#3c5a98;
-$color-social-googleplus:	#d14836;
+$color-primary: $color-blue;
 
-$primary-color: $color-red-95; // define primary color
+$color-gray-98:		$color-black;
+$color-gray-95:		$color-black-dark;
+$color-gray-90:		$color-black-light;
+
+$color-blue-80:		$color-blue;
+$color-blue-60:		$color-blue-light;
+$color-blue-30:		$color-white;
+$color-blue-15:		$color-white-dark;
+
