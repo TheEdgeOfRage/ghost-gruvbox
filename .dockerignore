@@ -1,0 +1,11 @@
+.git
+.gitignore
+
+Dockerfile
+.dockerignore
+build.sh
+
+dist
+
+LICENSE
+README.md
