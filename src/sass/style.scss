@@ -35,7 +35,7 @@ html.menu-active,
 
 body {
 	background: $color-bg;
-	font: 400 2em / 1.5em 'Cardo', serif;
+	font: 400 2em / 1.5em 'Merriweather', serif;
 	color: $color-blue-30;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -46,7 +46,7 @@ input,
 button,
 select,
 textarea {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	transition: all 0.2s ease-out;
 }
 
@@ -62,7 +62,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility;
 	color: $color-fg;
 }
@@ -118,7 +118,7 @@ ol > li:before {
 	position: absolute;
 	width: 1.5em;
 	margin-left: -2em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	font-weight: 500;
 	line-height: 1.5em;
@@ -192,7 +192,7 @@ dl {
 	padding-left: 30px;
 }
 dl dt {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	font-size: 0.75em;
 	line-height: 1.25em;
@@ -315,7 +315,7 @@ table td {
 	border: 1px solid $color-gray-90;
 }
 table th {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	font-size: 0.75em;
 	line-height: 1.25em;
@@ -369,7 +369,7 @@ img[src$="#full"] {
 	}
 
 	figcaption {
-		font-family: 'Fira Sans', sans-serif;
+		font-family: 'Lato', sans-serif;
 		color: $color-blue-60;
 		text-align: center;
 		max-width: 32em;
@@ -391,7 +391,7 @@ img[src$="#full"] {
 	width: 75vw;
 
 	figcaption {
-		font-family: 'Fira Sans', sans-serif;
+		font-family: 'Lato', sans-serif;
 		color: $color-blue-60;
 		text-align: center;
 		max-width: 32em;
@@ -566,7 +566,7 @@ Header
 	z-index: 10;
 	margin: 0;
 	padding: 0;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 2em;
 	line-height: 1em;
@@ -590,7 +590,7 @@ Header
 	z-index: 10;
 	margin: 0.25em 0;
 	padding: 0;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
 }
@@ -625,7 +625,7 @@ Header
 
 
 .inner {
-	max-width: 48em;
+	max-width: 42em;
 	margin: 0 auto;
 	padding: 0 2em;
 }
@@ -653,7 +653,7 @@ Navigation
 	margin-bottom: 1em;
 	padding: 0.5em 1.25em;
 	border: 1px solid $color-fg;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.667em;
 	text-shadow: none;
@@ -702,7 +702,7 @@ Menu
 	border-left: 1px solid $color-gray-90;
 	z-index: 400;
 	overflow: hidden;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	box-shadow: inset -2px 0 7px rgba(0, 0, 0, 0.1);
 	transform: translate3d(16em, 0, 0);
 	transition: all 0.25s ease-out;
@@ -857,7 +857,7 @@ Footer
 #footer {
 	position: relative;
 	z-index: 20;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	line-height: 1em;
 	padding-bottom: 6em;
 }
@@ -1045,7 +1045,7 @@ Post
 	z-index: 10;
 	display: block;
 	margin-bottom: 1.334em;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 0.75em;
 	font-weight: 400;
 	line-height: 1.334em;
@@ -1110,7 +1110,7 @@ Post Info
 .post-tags {
 	max-width: 75%;
 	float: left;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 .post-tags a {
 	display: inline-block;
@@ -1146,7 +1146,7 @@ Post Author
 	border-top: 1px solid $color-gray-90;
 	border-bottom: 1px solid $color-gray-90;
 	clear: both;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 .post-author-avatar {
 	position: relative;
@@ -1225,7 +1225,7 @@ Post Authors
 	border-bottom: 1px solid $color-gray-90;
 	clear: both;
 	text-align: center;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 .post-authors-info {
 	margin: 0 0 0.334em;
@@ -1260,7 +1260,7 @@ Post Comments
 	margin: 0;
 	padding: 0.5em 1.25em;
 	border: 1px solid $color-blue-80;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 0.75em;
 	line-height: 1.334em;
 	color: $color-blue-60;
@@ -1425,7 +1425,7 @@ Pagination
 	height: 2em;
 	margin: 0;
 	padding: 2em 0;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 .pagination:after {
 	position: absolute;
